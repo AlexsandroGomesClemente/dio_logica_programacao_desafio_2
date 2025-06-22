@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node ./index.js"
   },
   "author": "Alexsandro Gomes Clemente",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
 }
